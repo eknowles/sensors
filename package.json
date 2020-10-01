@@ -1,29 +1,30 @@
 {
   "name": "sensors",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:/eknowles/sensors.git",
-  "author": "Edward Knowles <ed.knowles@stunjelly.com>",
-  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "develop": "concurrently -r \"npm:type-check:watch\" \"npm:start\"",
-    "start": "parcel ./src/index.html",
-    "build": "npm run type-check && parcel build ./src/index.html --public-url '/'",
-    "prettify": "prettier --write './src/**/*.{ts,tsx}'",
-    "type-check": "tsc --noEmit",
-    "type-check:watch": "tsc --noEmit --watch"
-  },
-  "devDependencies": {
-    "@types/node": "^14.11.2",
-    "@types/react": "^16.9.49",
-    "@types/react-dom": "^16.9.8",
-    "parcel-bundler": "^1.12.4",
-    "prettier": "^2.1.2",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.3"
+    "dev": "./node_modules/.bin/next dev",
+    "build": "./node_modules/.bin/next build",
+    "start": "./node_modules/.bin/next start"
   },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "api-query-params": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "final-form": "^4.20.1",
+    "mongoose": "^5.10.7",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-final-form": "^6.5.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@types/node": "^14.11.2",
+    "@types/react": "^16.9.49",
+    "plop": "^2.7.4",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.1.2",
+    "tailwindcss": "^1.8.10",
+    "typescript": "^4.0.3"
   }
 }

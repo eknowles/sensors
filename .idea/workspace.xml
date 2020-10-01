@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb96049f-2e84-4cda-9d81-d18bac3d5dbb" name="Default Changelist" comment="feat(repo): setup basic react spa">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sensors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scripts/templates/component/component.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scripts/templates/component/index.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/plus-button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/plus-button/plus-button.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/query-form/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/query-form/query-form.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/query-section/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/query-section/query-section.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/db/connection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/db/models/reading.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/options.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/search-readings.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plopfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/sensor_readings.json" beforeDir="false" afterPath="$PROJECT_DIR$/sensor-readings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iHYhTI49UaeDMw9vmC0GlKchFH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.scripts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pages/api" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prettify" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettify" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.prettify" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore(repo): add gitignore" />
+    <MESSAGE value="chore(repo): add typescript" />
+    <MESSAGE value="chore(repo): add react" />
+    <MESSAGE value="chore(repo): add parcel and prettier" />
+    <MESSAGE value="feat(repo): setup basic react spa" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(repo): setup basic react spa" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="668" y="420" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601576148315">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="668" y="420" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1601576148315" />
+    <state x="834" y="515" key="Github.ShareDialog" timestamp="1601566896906">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="834" y="515" key="Github.ShareDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601566896906" />
+    <state x="775" y="326" key="Github.UntrackedFilesDialog" timestamp="1601566907524">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="775" y="326" key="Github.UntrackedFilesDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1601566907524" />
+    <state width="1615" height="330" key="GridCell.Tab.0.bottom" timestamp="1601576940991">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="330" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1601576940991" />
+    <state width="1615" height="330" key="GridCell.Tab.0.center" timestamp="1601576940990">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="330" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1601576940990" />
+    <state width="1615" height="330" key="GridCell.Tab.0.left" timestamp="1601576940989">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="330" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1601576940989" />
+    <state width="1615" height="330" key="GridCell.Tab.0.right" timestamp="1601576940990">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="330" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601576940990" />
+    <state width="1615" height="406" key="GridCell.Tab.1.bottom" timestamp="1601570084014">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084014" />
+    <state width="1615" height="406" key="GridCell.Tab.1.center" timestamp="1601570084013">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084013" />
+    <state width="1615" height="406" key="GridCell.Tab.1.left" timestamp="1601570084013">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084013" />
+    <state width="1615" height="406" key="GridCell.Tab.1.right" timestamp="1601570084013">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084013" />
+    <state width="1615" height="406" key="GridCell.Tab.2.bottom" timestamp="1601570084015">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.2.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084015" />
+    <state width="1615" height="406" key="GridCell.Tab.2.center" timestamp="1601570084014">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.2.center/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084014" />
+    <state width="1615" height="406" key="GridCell.Tab.2.left" timestamp="1601570084014">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.2.left/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084014" />
+    <state width="1615" height="406" key="GridCell.Tab.2.right" timestamp="1601570084014">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.2.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084014" />
+    <state width="1615" height="406" key="GridCell.Tab.3.bottom" timestamp="1601570084016">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.3.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084016" />
+    <state width="1615" height="406" key="GridCell.Tab.3.center" timestamp="1601570084016">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.3.center/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084016" />
+    <state width="1615" height="406" key="GridCell.Tab.3.left" timestamp="1601570084015">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.3.left/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084015" />
+    <state width="1615" height="406" key="GridCell.Tab.3.right" timestamp="1601570084016">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1615" height="406" key="GridCell.Tab.3.right/0.23.1920.1177@0.23.1920.1177" timestamp="1601570084016" />
+    <state x="461" y="250" key="SettingsEditor" timestamp="1601577463875">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1601577463875" />
+    <state x="625" y="288" width="670" height="676" key="search.everywhere.popup" timestamp="1601577471884">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="625" y="288" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1601577471884" />
+  </component>
+</project>
