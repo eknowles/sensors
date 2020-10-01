@@ -1,0 +1,15 @@
+{
+  "name": "sensors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:/eknowles/sensors.git",
+  "author": "Edward Knowles <ed.knowles@stunjelly.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
