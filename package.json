@@ -5,6 +5,14 @@
   "repository": "git@github.com:/eknowles/sensors.git",
   "author": "Edward Knowles <ed.knowles@stunjelly.com>",
   "license": "MIT",
+  "scripts": {
+    "develop": "concurrently -r \"npm:type-check:watch\" \"npm:start\"",
+    "start": "parcel ./src/index.html",
+    "build": "npm run type-check && parcel build ./src/index.html --public-url '/'",
+    "prettify": "prettier --write './src/**/*.{ts,tsx}'",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "tsc --noEmit --watch"
+  },
   "devDependencies": {
     "@types/node": "^14.11.2",
     "@types/react": "^16.9.49",
