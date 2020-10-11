@@ -30,8 +30,6 @@ const links = [
 const Header: React.FC = () => {
   const router = useRouter();
 
-  console.log(router);
-
   return (
     <header className="z-50 border-b border-solid border-gray-400">
       <nav>
