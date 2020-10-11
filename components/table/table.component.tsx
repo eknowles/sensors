@@ -1,24 +1,21 @@
 import React from 'react';
+import useReadingsTable from '../../hooks/readings-table/use-readings-table';
 import TableHeaderCell from '../table-header-cell';
 
-export interface IColumn {
-  id: string;
-  label: string;
-  render: (dataItem: any) => string;
-}
+const Table: React.FC = () => {
+  const { data, columns, setColumnSort, sortValues } = useReadingsTable();
 
-export interface ITableProps {
-  data: any[];
-  columns: IColumn[];
-}
-
-const Table: React.FC<ITableProps> = ({ columns, data }) => {
   return (
     <table className="w-full">
       <thead>
         <tr>
           {columns.map((col) => (
-            <TableHeaderCell sort={0} onClick={() => undefined} key={col.id}>
+            <TableHeaderCell
+              hasSort={col.hasSort}
+              sortValue={sortValues[col.id] || 0}
+              onSortChange={(value) => setColumnSort(col.id, value)}
+              key={col.id}
+            >
               {col.label}
             </TableHeaderCell>
           ))}
@@ -27,7 +24,7 @@ const Table: React.FC<ITableProps> = ({ columns, data }) => {
       <tbody>
         {data &&
           data.map((dataItem) => (
-            <tr key={dataItem.id} className="hover:bg-gray-200">
+            <tr key={dataItem._id} className="hover:bg-gray-200">
               {columns.map((col) => (
                 <td
                   key={col.id}
