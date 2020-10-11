@@ -1,16 +1,15 @@
 import Head from 'next/head';
 import React from 'react';
 import Header from '../components/header';
-import Table from '../components/table';
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <Head>
-        <title>Table</title>
+        <title>Dashboard</title>
       </Head>
       <Header />
-      <Table />
+      Dashboard
     </div>
   );
 }

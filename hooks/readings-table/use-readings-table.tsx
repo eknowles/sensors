@@ -11,6 +11,13 @@ const fields = {
     hasFilter: false,
     render: (d) => d.id,
   },
+  box_id: {
+    id: 'box_id',
+    label: 'Box',
+    hasSort: true,
+    hasFilter: true,
+    render: (d) => d.box_id,
+  },
   sensor_type: {
     id: 'sensor_type',
     label: 'Sensor',
@@ -50,6 +57,7 @@ const fields = {
 
 const columns = [
   fields.id,
+  fields.box_id,
   fields.name,
   fields.reading,
   fields.unit,
@@ -79,7 +87,7 @@ const formatSort = (obj: any) => {
 const useReadingsTable = () => {
   const fields = columns.map((col) => col.id);
   const [sortValues, setSortValues] = useState({});
-  const limit = 30;
+  const limit = 50;
   const skip = 0; // paginate this later
 
   const { data, error } = useSWR(

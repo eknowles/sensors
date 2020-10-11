@@ -28,7 +28,7 @@ const Table: React.FC = () => {
               {columns.map((col) => (
                 <td
                   key={col.id}
-                  className="text-left px-2 py-1 border-b border-gray-400 border-solid text-gray-700"
+                  className="text-left px-2 py-1 border-b border-gray-400 border-solid text-gray-700 text-sm"
                 >
                   {col.render(dataItem)}
                 </td>
